@@ -1,34 +1,55 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>tristins.network</title>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Welcome to tristins.network, a place where Tristins homelab is hosted.">
 </head>
 <body>
     <header>
-        <h1>Welcome to <b>tristins.network</b> - my homelab.</h1>
+        <div class="container">
+            <h1>Welcome to <b>tristins.network</b> - my homelab.</h1>
+        </div>
     </header>
     <nav>
-        <a href="">Home</a>
-        <a href="/about.html">About</a>
-        <a href="https://blog.tristins.network">Blog</a>
-        <a href="/contact.html">Contact</a>
+        <div class="container">
+            <a href="">Home</a>
+            <a href="/about.html">About</a>
+            <a href="https://blog.tristins.network">Blog</a>
+            <a href="/contact.html">Contact</a>
+        </div>
     </nav>
     <main>
-        <section>
-            <p>This website is dedicated to explaining my Home Lab.</p>
-            <p>Hardware information can be found at my Home Lab Updates at my <a href="https://blog.tristins.network">Blog</a>!</p>
-            <p>Find more information about me at <a href="https://tristinkorbel.xyz">my profolio</a> site.</p>
-        </section>
-        <section>
-        <h3>Websites</h3>
-            <p><a href="https://status.tristins.network">Server Status</a></p>
-            <p><a href="https://tristinkorbel.xyz">Professional Portfolio</a></p>
-            <p><a href=https://dragonsrule10.com>Online Persona Profolio</a></p>
-            <p><a href="https://blog.tristins.network">Tristin's Scribbles Blog</a></p>
-        </section>
+        <div class="container">
+            <section>
+                <h2>About My Homelab</h2>
+                <p>This website is dedicated to explaining my Home Lab setup and showcasing the various services I host.</p>
+                <p>Hardware information and detailed updates about my homelab journey can be found at my <a href="https://blog.tristins.network">Blog</a>!</p>
+                <p>For more information about me professionally, visit <a href="https://tristinkorbel.xyz">my portfolio</a> site.</p>
+            </section>
+            <section>
+                <h3>My Websites & Services</h3>
+                <div class="links-grid">
+                    <a href="https://status.tristins.network" class="link-card">
+                        <p>Server Status</p>
+                    </a>
+                    <a href="https://tristinkorbel.xyz" class="link-card">
+                        <p>Professional Portfolio</p>
+                    </a>
+                    <a href="https://dragonsrule10.com" class="link-card">
+                        <p>Online Persona Portfolio</p>
+                    </a>
+                    <a href="https://blog.tristins.network" class="link-card">
+                        <p>Tristin's Scribbles Blog</p>
+                    </a>
+                </div>
+            </section>
+        </div>
     </main>
 </body>
 </html>
