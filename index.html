@@ -7,11 +7,59 @@
     <meta name="description" content="Welcome to tristins.network, a place where Tristins homelab is hosted.">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <header>
-        <h1 class="text-3xl font-bold underline">
-          Hello!
-        </h1>
-    </header>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-blue-600 text-white p-6">
+    <h1 class="text-3xl font-bold">My Homelab</h1>
+    <p class="mt-1 text-lg">A quick overview of what’s running at home</p>
+  </header>
+
+  <main class="max-w-3xl mx-auto mt-8 space-y-6 p-4">
+    <section class="bg-white rounded-lg shadow p-6">
+      <h2 class="text-2xl font-semibold mb-4">Servers</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li><span class="font-medium">Host A:</span> Ryzen 9, 64 GB RAM – virtualization & media server</li>
+        <li><span class="font-medium">Host B:</span> Intel i7, 32 GB RAM – backups & experimentation</li>
+      </ul>
+    </section>
+
+    <section class="bg-white rounded-lg shadow p-6">
+      <h2 class="text-2xl font-semibold mb-4">Cloud Servers</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li><span class="font-medium">Host A:</span> Ryzen 9, 64 GB RAM – virtualization & media server</li>
+        <li><span class="font-medium">Host B:</span> Intel i7, 32 GB RAM – backups & experimentation</li>
+      </ul>
+    </section>
+
+    <section class="bg-white rounded-lg shadow p-6">
+      <h2 class="text-2xl font-semibold mb-4">Networking</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li><span class="font-medium">Edge Router:</span> pfSense on a dedicated box (2.5 GbE)</li>
+        <li><span class="font-medium">Switch:</span> Unifi 24-port managed switch</li>
+        <li><span class="font-medium">Wi-Fi:</span> Ubiquiti AP-AC-Pro</li>
+      </ul>
+    </section>
+
+    <section class="bg-white rounded-lg shadow p-6">
+      <h2 class="text-2xl font-semibold mb-4">Storage & Services</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li><span class="font-medium">NAS:</span> TrueNAS with 4×8 TB RAID-Z2</li>
+        <li><span class="font-medium">Media Server:</span> Jellyfin running in Docker</li>
+        <li><span class="font-medium">Home Automation:</span> Home Assistant with Zigbee integration</li>
+        <li><span class="font-medium">Virtualization:</span> Proxmox hosting VMs and LXC containers</li>
+      </ul>
+    </section>
+
+    <section class="bg-white rounded-lg shadow p-6">
+      <h2 class="text-2xl font-semibold mb-4">Monitoring</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li><span class="font-medium">Grafana + Prometheus:</span> System and service metrics dashboards</li>
+        <li><span class="font-medium">Alerting:</span> Push alerts via mobile and email</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="text-center py-6 text-sm text-gray-600">
+    &copy; 2025 My Homelab • Stay curious, stay tinkering.
+  </footer>
 </body>
 </html>
